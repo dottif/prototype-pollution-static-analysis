@@ -1,4 +1,4 @@
-function b(parse) {
+function b(query) {
   return query
     .replace("?", "")
     .split("&") //separates parameters 
@@ -24,4 +24,4 @@ function b(parse) {
     }, {});
 }
 
-module.exports = {parse};
+module.exports = {b};
